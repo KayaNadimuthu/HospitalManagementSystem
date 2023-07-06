@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+* {
+    font-family: 'Overpass', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@layer components {
+    .tab {
+        @apply bg-white shadow px-3 py-2 rounded text-cyan-500
+    }
+    .tab-active {
+        @apply bg-cyan-500 text-gray-200
+    }
+}
+
+@tailwind utilities;
